@@ -11,7 +11,6 @@
 
 ## Projects
 - [hiddenjump](https://github.com/cyb3ralbert/hiddenjump) — reverse SSH tunnel through CGNAT
-- [webtunnel](https://github.com/cyb3ralbert/webtunnel) — Go/Tor transport, HTTPT-based
 - [BoomOrBust](https://github.com/cyb3ralbert/BoomOrBust) — startup survival simulations
 - freelancer-bot — Telegram bot for freelance job parsing
 
