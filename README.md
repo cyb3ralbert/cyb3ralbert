@@ -19,12 +19,16 @@ Recent patches:
 - [Flux159/mcp-server-kubernetes#356](https://github.com/Flux159/mcp-server-kubernetes/pull/356) — unknown names in `ALLOWED_TOOLS` fail loudly instead of silently *(merged)*
 - [redis/mcp-redis#161](https://github.com/redis/mcp-redis/pull/161) — `MCP_REDIS_ALLOWED_TOOLS`, for a server with no tool-level control *(open)*
 
-Notes from reading these servers are in progress.
+Notes from reading six of these servers line by line, with a file and line for every
+claim: [what MCP servers actually expose](https://cyb3ralbert.github.io/mcp-tool-exposure/).
+Corrections welcome — the documentation-based survey that preceded it was wrong in both
+directions.
 
 ---
 
 ## Write-ups
 
+- [What MCP servers actually expose](https://cyb3ralbert.github.io/mcp-tool-exposure/) — six codebases, one question
 - [git-crypt + Trezor](https://cyb3ralbert.github.io/git-crypt-trezor/) — repo encryption key never on disk
 - [Trezor as a TOTP vault](https://cyb3ralbert.github.io/trezor-totp/) — 2FA secrets encrypted on-device
 - [Recovering a Trezor GPG identity from a seed phrase](https://cyb3ralbert.github.io/trezor-gpg-recovery/) — SLIP-0010, no hardware required; answers [trezor-agent#335](https://github.com/romanz/trezor-agent/issues/335)
