@@ -58,4 +58,17 @@ The same question turns up away from hardware: which tools an MCP server hands a
 
 ---
 
+## Support
+
+All of the above is unpaid. Bitcoin on-chain, if it was worth something to you:
+
+```
+bc1qsjxlel37xp7yjmgwkhkk3k4kntmff6gyznwxhp
+```
+
+Mainnet, native SegWit (P2WPKH). Nothing is gated behind it and nothing will be — an issue
+or a correction still counts for more. Details: [kramgasse.com/donate](https://kramgasse.com/donate/).
+
+---
+
 [site](https://cyb3ralbert.github.io) · [telegram](https://t.me/cyb3ralbert) · [email](mailto:cyberalbert@protonmail.ch)
