@@ -1,6 +1,6 @@
 # cyb3ralbert
 
-Infrastructure engineer. Linux, Kubernetes, Go, Python.
+Engineer. Linux, Kubernetes, Go, Python.
 
 Most of what's here shares one property: **self-custody**. Whatever unlocks a thing stays
 with the person the thing belongs to — not in a vendor's database, not in a CI secret, not
@@ -30,7 +30,7 @@ instances.
   Trezor-backed GPG identity from the seed phrase alone, in software, so you can confirm
   the fingerprint reproduces while you still have the device (SLIP-0010). Related:
   [romanz/trezor-agent#335](https://github.com/romanz/trezor-agent/issues/335).
-- [git-crypt + Trezor](https://cyb3ralbert.github.io/git-crypt-trezor/) — the repository's
+- [git-crypt + Trezor](https://kramgasse.com/git-crypt-trezor/) — the repository's
   encryption key is unwrapped by the device on demand and never written to disk.
 - [hiddenjump](https://github.com/cyb3ralbert/hiddenjump) — reach a machine behind CGNAT
   over an SSH tunnel you run yourself, rather than a third-party remote-access service.
@@ -49,12 +49,15 @@ The same question turns up away from hardware: which tools an MCP server hands a
 
 ## Write-ups
 
-- [What MCP servers actually expose](https://cyb3ralbert.github.io/mcp-tool-exposure/) —
+- [Kubernetes The Hard Way starts at lab 01. This is chapter zero.](https://kramgasse.com/chapter-zero/) —
+  five ways a cloud image refuses to boot on a local hypervisor, and what the thirteen labs
+  actually need in RAM.
+- [What MCP servers actually expose](https://kramgasse.com/mcp-tool-exposure/) —
   six codebases read line by line, with a file and line for every claim. Corrections
   welcome; the documentation-based survey that preceded it was wrong in both directions.
-- [Recovering a Trezor GPG identity from a seed phrase](https://cyb3ralbert.github.io/trezor-gpg-recovery/)
-- [Trezor as a TOTP vault](https://cyb3ralbert.github.io/trezor-totp/)
-- [git-crypt + Trezor](https://cyb3ralbert.github.io/git-crypt-trezor/)
+- [Recovering a Trezor GPG identity from a seed phrase](https://kramgasse.com/trezor-gpg-recovery/)
+- [Trezor as a TOTP vault](https://kramgasse.com/trezor-totp/)
+- [git-crypt + Trezor](https://kramgasse.com/git-crypt-trezor/)
 
 ---
 
@@ -71,4 +74,4 @@ or a correction still counts for more. Details: [kramgasse.com/donate](https://k
 
 ---
 
-[site](https://cyb3ralbert.github.io) · [telegram](https://t.me/cyb3ralbert) · [email](mailto:cyberalbert@protonmail.ch)
+[site](https://kramgasse.com) · [telegram](https://t.me/cyb3ralbert) · [email](mailto:cyberalbert@protonmail.ch)
